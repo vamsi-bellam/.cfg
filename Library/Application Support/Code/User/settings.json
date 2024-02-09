@@ -1,0 +1,55 @@
+{
+  "window.zoomLevel": 1,
+  "editor.rulers": [80],
+  "editor.formatOnSave": true,
+  "[ocaml]": {
+    "editor.defaultFormatter": "ocamllabs.ocaml-platform",
+    "editor.rulers": [80]
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.pdf": "latex-workshop-pdf-hook"
+  },
+  "latex-workshop.latex.tools": [
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-shell-escape",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ],
+      "env": {}
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pdflatex",
+      "tools": ["pdflatex"]
+    }
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "ocaml.server.extendedHover": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[rescript]": {
+    "editor.defaultFormatter": "chenglou92.rescript-vscode",
+    "editor.formatOnSave": true
+  },
+  "rescript.settings.codeLens": true,
+  "cmake.options.statusBarVisibility": "visible",
+  "remote.SSH.serverInstallPath": {
+    "minsky.cse.buffalo.edu": "/local/Spring_2024/vbellam/.vscode-server"
+  }
+}
