@@ -1,0 +1,11 @@
+Homebrew
+git
+ohmyzsh( powerlevel10k + git + autosuggestions )
+asdf ( Ruby, Nodejs )
+pyenv 
+Java(download from sources and manage with jenv)
+OCaml 
+VSCode ( and common extensions )
+Brave
+Postgres
+Docker
