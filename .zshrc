@@ -135,3 +135,6 @@ export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+export PATH="/opt/homebrew/opt/curl/bin:$PATH"
+# Idris2 package manager
+export PATH="$HOME/.pack/bin:$PATH"
