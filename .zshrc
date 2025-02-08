@@ -138,3 +138,24 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 export PATH="/opt/homebrew/opt/curl/bin:$PATH"
 # Idris2 package manager
 export PATH="$HOME/.pack/bin:$PATH"
+
+# Hadoop paths 
+
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_401.jdk/Contents/Home/"
+
+export HADOOP_HOME="/Users/vamsibellam/Downloads/hadoop-3.3.6"
+export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
+export HADOOP_INSTALL=$HADOOP_HOME
+export HADOOP_MAPRED_HOME=$HADOOP_HOME
+export HADOOP_COMMON_HOME=$HADOOP_HOME
+export HADOOP_HDFS_HOME=$HADOOP_HOME 
+export YARN_HOME=$HADOOP_HOME
+export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
+export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/nativ"
+
+# Maven 
+export PATH=$PATH:/opt/apache-maven-3.9.6/bin
+
+[ -f "/Users/vamsibellam/.ghcup/env" ] && . "/Users/vamsibellam/.ghcup/env" # ghcup-env
+
+export GOPATH=$HOME/go
